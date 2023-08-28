@@ -1,0 +1,10 @@
+^C:\FLUTTERPROJECTS\MY_EXPENSES_TRACKER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/flutterProjects/my_expenses_tracker/windows -BC:/flutterProjects/my_expenses_tracker/build/windows --check-stamp-file C:/flutterProjects/my_expenses_tracker/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

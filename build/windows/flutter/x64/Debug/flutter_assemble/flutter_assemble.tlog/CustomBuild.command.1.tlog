@@ -1,0 +1,28 @@
+^C:\FLUTTERPROJECTS\MY_EXPENSES_TRACKER\BUILD\WINDOWS\CMAKEFILES\8FF1742085AE02F9B561AE8FAE8A29EE\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\flutterProjects\my_expenses_tracker FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\flutterProjects\my_expenses_tracker\windows\flutter\ephemeral PROJECT_DIR=C:\flutterProjects\my_expenses_tracker FLUTTER_TARGET=C:\flutterProjects\my_expenses_tracker\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9iMjAxODNlMDQwOTYwOTRiY2MzN2Q5Y2RlMmE0Yjk2ZjVjYzY4NGNmLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\flutterProjects\my_expenses_tracker\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FLUTTERPROJECTS\MY_EXPENSES_TRACKER\BUILD\WINDOWS\CMAKEFILES\E74E832AD5591CD3F032A0C7F7F6DC5C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FLUTTERPROJECTS\MY_EXPENSES_TRACKER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/flutterProjects/my_expenses_tracker/windows -BC:/flutterProjects/my_expenses_tracker/build/windows --check-stamp-file C:/flutterProjects/my_expenses_tracker/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
